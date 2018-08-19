@@ -9,8 +9,6 @@ class WordCount extends HTMLParagraphElement {
             return text.split(/\s+/g).length
         }
 
-        console.log(wcParent)
-
         const getCount = () => `Words: ${countWords(wcParent)}`
 
         const shadow = this.attachShadow({mode: 'open'})
