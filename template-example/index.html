@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../styles/global.css">
+  <title>Template example web component</title>
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <!-- <template id="my-paragraph">
+    <style>
+      p {
+        color: white;
+        background-color: #666;
+        padding: 5px;
+      }
+    </style>
+    <p>
+      <slot name="my-text">My default text</slot>
+    </p>
+  </template> -->
+
+  <my-paragraph>
+    <p slot="my-text">Let's have some different text!</p>
+  </my-paragraph>
+</body>
+
+</html>

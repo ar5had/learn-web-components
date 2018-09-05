@@ -1,4 +1,4 @@
-class WordCount extends HTMLParagraphElement {
+class WordCount extends HTMLElement{
     constructor() {
         super()
 
@@ -24,4 +24,4 @@ class WordCount extends HTMLParagraphElement {
     }
 }
 
-customElements.define('word-count', WordCount, {extends: 'p'})
+customElements.define('word-count', WordCount)
